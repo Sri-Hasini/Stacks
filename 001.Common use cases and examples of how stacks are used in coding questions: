@@ -1,0 +1,20 @@
+Common use cases and examples of how stacks are used in coding questions:
+-------------------------------------------------------------------------
+
+1) Balancing of parentheses: One common use case of stack data structure is to check if a given expression containing parentheses is balanced or not. 
+This can be done by pushing opening parentheses onto the stack and popping them off when a closing parenthesis is encountered. 
+If the stack becomes empty by the end of the expression, it means that the parentheses are balanced.
+ 
+2) Reversing a string: Another common interview question involving stacks is to reverse a given string using stack data structure. 
+This can be done by pushing each character of the string onto the stack, and then popping them off in reverse order to obtain the reversed string.
+ 
+3) Function call stack: Stack data structure is used internally by most programming languages to maintain the function call stack. 
+This stack keeps track of the function calls that are made during the execution of a program, and is essential for the proper execution and return of values from nested function calls.
+ 
+4) Depth-first search: Depth-first search (DFS) algorithm, which is used to traverse a graph or tree data structure, is typically implemented using stack data structure. 
+This is because DFS explores as far as possible along each branch before backtracking, which can be easily modeled using a stack to keep track of the visited nodes and the path taken so far.
+ 
+5) Infix to postfix conversion: Stack data structure is also used in the conversion of infix expressions to postfix expressions, which is a common interview question. 
+This involves using stack to keep track of the operators and their precedence, and outputting them in postfix notation based on certain rules.
+ 
+
